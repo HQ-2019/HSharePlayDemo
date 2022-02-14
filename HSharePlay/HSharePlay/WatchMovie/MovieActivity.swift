@@ -25,7 +25,7 @@ struct MovieActivity: GroupActivity {
 
 
 
-/// 用于 传输播放影片的信息
+/// 用于传输播放影片的信息
 struct Movie: Hashable, Codable {
     /// 视频地址类型
     enum UrlType: Hashable, Codable {
